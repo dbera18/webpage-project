@@ -1,17 +1,18 @@
-import {Routes} from 'react-router'
 
+import {Routes,Route} from 'react-router';
 import './App.css'
+import AppLayout from './layout/AppLayout';
 
 function App() {
  
 
   return (
-   
-<Routes>
-  <Route> </Route>
-
-</Routes>
-  )
+    <Routes>
+      <Route element = {<AppLayout />}>
+        <Route path="/" element ={<p>Hello</p>} />
+      </Route>
+    </Routes>
+  );
 }
 
-export default App
+export default App;
