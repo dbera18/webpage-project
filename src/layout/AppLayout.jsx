@@ -9,7 +9,7 @@ function AppLayout() {
         <div className = "col-span-3">
       <Sidebar />
       </div>
-      <div className='col-span-9'>
+      <div className='col-span-9 px-8 py-4'>
         <Outlet/>
         </div>
       
