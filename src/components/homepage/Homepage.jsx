@@ -13,7 +13,7 @@ function Homepage() {
     },[])
   return (
     <div>
-     <h1 className='text-3xl font-bold'>Home Page</h1>
+     <h1 className='text-3xl font-bold'>Home Page is fucking good</h1>
      <div className='mt-8 flex items-center justify-between'>
      <h2 className= 'text-2xl'>Popular Movies</h2>
      <button className='test-sm tex-gray-300'>
